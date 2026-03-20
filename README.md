@@ -7,6 +7,16 @@ Built with Python + CustomTkinter. Tested on **Linux Mint 22.3**.
 
 ---
 
+## Preview
+
+| | |
+|---|---|
+| ![Mirror](screenshots/Preview_1.png) | ![Settings](screenshots/Preview_2.png) |
+| ![Livestream](screenshots/Preview_3.png) | ![Log](screenshots/Preview_4.png) |
+| ![TCP/IP](screenshots/Preview_5.png) | |
+
+---
+
 ## Features
 
 - 📱 Mirror & control Android device
