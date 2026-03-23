@@ -34,8 +34,9 @@ Built with Python + CustomTkinter. Tested on **Linux Mint 22.3**.
 ```bash
 sudo apt install scrcpy ffmpeg adb xdotool python3
 pip install customtkinter --break-system-packages
+sudo apt install xvfb
+pip install pillow --break-system-packages
 ```
-
 ---
 
 ## Usage
@@ -74,10 +75,10 @@ Bug reports and suggestions are welcome!
 
 ## Credits
 
-- [scrcpy](https://github.com/Genymobile/scrcpy) by Genymobile — the core engine behind this GUI
+- [scrcpy](https://github.com/Genymobile/scrcpy) — core engine
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) — UI framework
 - [ffmpeg](https://ffmpeg.org) — stream encoding
-
+- Android Debug Bridge (ADB) — device communication
 ---
 
 ## License
