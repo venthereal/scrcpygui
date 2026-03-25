@@ -83,7 +83,9 @@ Bug reports and suggestions are welcome!
 
 ## License
 
-MIT License — free to use, modify, and distribute.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+You are free to use, modify, and distribute this software as long as the source remains open and credit is given.
 
 ---
 
