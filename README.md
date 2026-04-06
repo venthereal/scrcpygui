@@ -30,19 +30,32 @@ Built with Python + CustomTkinter. Tested on **Linux Mint 22.3**.
 ---
 
 ## Requirements
+> Reminder: This project is still in Beta. We encourage you to use virtual enviroment and avoid any system-wide breaking packages (especially if youre in Linux)
 
+### Linux dependencies
 ```bash
-sudo apt install scrcpy ffmpeg adb xdotool python3
-pip install customtkinter --break-system-packages
-sudo apt install xvfb
-pip install pillow --break-system-packages
+sudo apt install -y scrcpy ffmpeg adb xdotool python3 python3-venv xvfb
 ```
+Then initiate a virtual enviroment on your current (working) folder. In this example `.venv` is a folder of the enviroment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### Python dependencies
+```bash
+pip install customtkinter pillow
+```
+
 ---
 
 ## Usage
-
+> Remember: Activate your virtual enviroment beforehand
 ```bash
 python3 scrcpy_gui.py
+```
+## Exit
+```bash
+deactivate
 ```
 
 ---
