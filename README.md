@@ -48,10 +48,32 @@ pip install customtkinter pillow
 
 ---
 
+## Development
+
+### VS Code Setup
+The project includes VS Code workspace settings (`.vscode/settings.json`) configured for:
+- Python interpreter: `/usr/bin/python3` (system Python)
+- Pylance language server with proper import resolution
+- Basic type checking and auto-import completions
+
+If Pylance shows import errors, ensure VS Code is using the correct Python interpreter by checking the status bar or running `Python: Select Interpreter` command.
+
+### Project Structure
+```
+scrcpygui-main/
+├── core/           # Core modules (config, adb_manager)
+├── ui/             # UI modules (main_window)
+├── main.py         # Application entry point
+├── screenshots/    # Documentation screenshots
+└── .vscode/        # VS Code workspace settings
+```
+
+---
+
 ## Usage
 > Remember: Activate your virtual enviroment beforehand
 ```bash
-python3 scrcpy_gui.py
+python3 main.py
 ```
 ## Exit
 ```bash
